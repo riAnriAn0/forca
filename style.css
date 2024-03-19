@@ -1,0 +1,39 @@
+
+body{
+    text-align: center;
+}
+
+#checkBox{
+    margin: 80px ;
+    display: flex;
+    justify-content: center;
+}
+
+div > div{
+    border: solid black 2px ;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+}
+
+.marcado{
+    background-color: rgb(255, 0, 0);
+}
+
+#checkBox> input {
+    width: 20px;  
+    height: 20px;
+  }
+
+#textBox > input {
+    width: 30px;  
+    height: 30px;
+    font-size: larger;
+    margin:5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px black;
+  }
